@@ -22,7 +22,7 @@ $ npm start
 
 4. Create a **mysql** database and import the file **urlSmall.sql** into it
 
-5. CChange the database connection information in the file **.env**
+5. Change the database connection information in the file **.env**
 
 6. By default this information is **database->mysql**:
 - **host : 127.0.0.1**
@@ -44,7 +44,7 @@ $ npm start
 $ npm start
 ```
 
-![loho](https://github.com/ngahane/urlSmall/blob/master/screenshot.png "urlSmall screenshot")
+![Screenshot](https://github.com/ngahane/urlSmall/blob/master/screenshot.png "urlSmall screenshot")
 
 # Production mode
 If you want to go into production, change 
