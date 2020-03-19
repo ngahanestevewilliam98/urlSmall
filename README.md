@@ -40,7 +40,7 @@ $ npm start
 # Start fronted angular
 7. Execute this command in the **app** folder of the project to start the angular fronted
 ```sh
-$ npm start
+$ ng serve
 ```
 # Screenshot of urlSmall
 ![Screenshot](https://github.com/ngahane/urlSmall/blob/master/screenshot.png "urlSmall screenshot")
