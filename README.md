@@ -23,8 +23,7 @@ $ npm start
 4. Create a **mysql** database and import the file **urlSmall.sql** into it
 
 5. Change the database connection information in the file **.env**
-
-6. By default this information is **database->mysql**:
+By default this information is **database->mysql**:
 - **host : 127.0.0.1**
 - **port : port**
 - **db : urlSmall**
@@ -33,13 +32,13 @@ $ npm start
 
 
 # Start backend nodejs
-7. Execute this command in **the project folder** to start the nodejs server.
+6. Execute this command in **the project folder** to start the nodejs server.
 ```sh
 $ npm start
 ```
 
 # Start fronted angular
-8. Execute this command in the **app** folder of the project to start the angular fronted
+7. Execute this command in the **app** folder of the project to start the angular fronted
 ```sh
 $ npm start
 ```
