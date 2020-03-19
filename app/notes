@@ -1,0 +1,18 @@
+<a [routerLink]="['product-list']" [queryParams]="{ page: 99 }">Go to Page 99</a>
+ goToPage(pageNum) {
+    this.router.navigate(['/product-list'], { queryParams: { page: pageNum } });
+  }
+
+  ngOnInit() {
+    this.sub = this.route.params.subscribe(params => {
+       this.id = +params['id']; // (+) converts string 'id' to a number
+    });
+  }
+
+ ngOnInit() {
+    // Get parent ActivatedRoute of this route.
+    this.sub = this.router.routerState.parent(this.route)
+      .params.subscribe(params => {
+        this.parentRouteId = +params["id"];
+      });
+  }

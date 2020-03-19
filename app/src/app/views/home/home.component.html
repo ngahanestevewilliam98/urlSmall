@@ -1,0 +1,68 @@
+<div id="loaderInitPage">
+  <img src="assets/images/loader/loading-lazy.gif">
+</div>
+
+<div align="center">
+  <h1> urlSmall </h1>
+  <p>
+    urlSmall is a open source url shortener.
+  </p>
+  <!-- Follow us :
+  <a href="https://github.com/ngahane/urlSmall" target="_blank">
+    <button class="ui github icon button">
+      <i class="github icon"></i> Github
+    </button>
+  </a>
+  <a href="mailto:ngahanestevewilliam98@gmail.com" target="_blank">
+    <button class="ui google plus icon button">
+      <i class="google plus icon"></i> Google plus
+    </button>
+  </a>
+  <a href="https://linkedin.com/in/steve-william-ngahane-6545b6137" target="_blank">
+    <button class="ui linkedin icon button">
+      <i class="linkedin icon"></i> Linkedin
+    </button>
+  </a> -->
+</div>
+<br><br>
+
+<div class="ui centered grid">
+  <div class="twelve wide tablet twelve wide computer column">
+    <div class="ui form">
+      <div class="field">
+        <label><i class="linkify icon"></i> Site Link </label>
+        <input placeholder="Here" type="text" [(ngModel)]="redirectUrl">
+      </div>
+      <br><br>
+      <div align="center">
+        <div class="ui submit primary button" (click)="saveLinks()">Generate link</div>
+        <br><br>
+        <h3 *ngIf="uniqueUrl != undefined">
+          <strong> The generated link is : </strong> <br>
+          <a href="{{uniqueUrl}}">{{uniqueUrl}}</a>
+        </h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>
+    Designed by <strong>ngahane steve william</strong>
+  </p>
+  <a href="https://github.com/ngahane/urlSmall" target="_blank">
+    <button class="ui github icon button">
+      <i class="github icon"></i> Github
+    </button>
+  </a>
+  <a href="mailto:ngahanestevewilliam98@gmail.com" target="_blank">
+    <button class="ui google plus icon button">
+      <i class="google plus icon"></i> Google plus
+    </button>
+  </a>
+  <a href="https://linkedin.com/in/steve-william-ngahane-6545b6137" target="_blank">
+    <button class="ui linkedin icon button">
+      <i class="linkedin icon"></i> Linkedin
+    </button>
+  </a>
+</div>

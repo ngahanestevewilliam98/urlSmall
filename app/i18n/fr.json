@@ -1,0 +1,4 @@
+{
+    "test": "salut",
+    "HELLO": "salut {{value}}"
+}

@@ -1,0 +1,10 @@
+{
+  "about" : "A propos",
+  "goods" : "Articles",
+  "apartments" : "Appartements",
+  "bedrooms" : "Chambres",
+  "contactus" : "Nous contacter",
+  "detail": "Détail",
+  "nothingBedrooms": "Aucune chambre trouvée",
+  "nothingApartments": "Aucun appartement trouvé"
+}
