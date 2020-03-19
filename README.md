@@ -7,7 +7,7 @@
 # Usage 
 1. Clone the repository with 
 ```sh
-$ git clone https://github.com/ngahane/urlSmall
+$ git clone https://github.com/ngahane/urlSmall.git
 ```
 
 2. In the **project folder**, execute this command
