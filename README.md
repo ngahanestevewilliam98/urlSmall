@@ -21,3 +21,7 @@
 
 # Start fronted angular
 8. Execute the command **ng serve** in the **app** folder of the project to start the angular fronted
+
+NB: If you want to go into production, change 
+- the ip address of the server located in **app->src->app->helpers->server.ts**.
+- the port in **server.js** and **app->src->app->helpers->server.ts**. The ports must be identical
