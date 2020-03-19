@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 
-**urlSmall** is a open source url shortener designed with the MEAN stack (MongoDb/ExpressJs/Angular/Nodejs). This project can be hosted on a local or online server.
+**urlSmall** is a open source url shortener designed with the MEAN stack (MySQL/ExpressJs/Angular/Nodejs). This project can be hosted on a local or online server.
 
 # Usage 
 1. Clone the repository with 
