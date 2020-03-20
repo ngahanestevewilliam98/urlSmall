@@ -42,6 +42,8 @@ $ npm start
 ```sh
 $ ng serve
 ```
+8. Open browser to url **http://127.0.0.1:4200**
+
 # Screenshot of urlSmall
 ![Screenshot](https://github.com/ngahane/urlSmall/blob/master/screenshot.png "urlSmall screenshot")
 
